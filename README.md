@@ -27,7 +27,7 @@ cd Chapter 2
 
 Database file should create itself automaticly after running any command given below.
 
-**Adding tasks to database**
+***Adding tasks to database***
 
 Command:  tasks.py add --name NAME --deadline DEADLINE --description DESCRIPTION
 
@@ -35,8 +35,20 @@ Command:  tasks.py add --name NAME --deadline DEADLINE --description DESCRIPTION
 
 Pattern for deadline: %Y-%m-%d,%H:%M
 
-**example**
+**Example**
 
 tasks.py add --name trening --deadline 2020-06-10,18:30 --description "Push training"
+
+***Listing tasks***
+
+Command:  tasks.py list --all | --today
+
+***Updating tasks***
+
+Command: 
+
+**Example**
+
+tasks.py update --name "Nauka" --deadline 2020-06-12,19:00 --description "Egzamin z obwodów"  --hash -4297185180708895369
 
 
