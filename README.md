@@ -74,6 +74,12 @@ tasks.py remove --hash -4297185180708895369
 
 ***Chapter 3***
 
+cd Chapter 3
+
+To test the code, go to main.py and type in print(how_many_numbers_do_you_have_to_check()) in the same file, where function is located.
+
+Command: main.py
+
 
 
 
