@@ -54,7 +54,7 @@ Command: tasks.py update --name NAME --deadline DEADLINE --description DESCRIPTI
 
 tasks.py update --name "Nauka" --deadline 2020-06-12,19:00 --description "Egzamin z obwodów" --hash -4297185180708895369
 
-Not every element must be specified: tasks.py update --name "Nauka" --hash -4297185180708895369
+Not every element must be specified, for example: tasks.py update --name "Nauka" --hash -4297185180708895369
 
 **Important**
 
