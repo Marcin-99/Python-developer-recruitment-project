@@ -4,6 +4,9 @@ To run the code (Chapter 2) you need to have sqlalchemy installed.
 
 pip install sqlalchemy
 
+<br>
+<br>
+
 ***Chapter 1***
 
 cd Chapter 1
@@ -36,11 +39,11 @@ Command:  tasks.py add --name NAME --deadline DEADLINE --description DESCRIPTION
 
 **IMPORTANT** 
 
-Pattern for deadline: %Y-%m-%d,%H:%M
+Pattern for deadline: ***%Y-%m-%d,%H:%M***
 
 **Example**
 
-tasks.py add --name trening --deadline 2020-06-10,18:30 --description "Push training"
+tasks.py add --name trening --deadline ***2020-06-10,18:30*** --description "Push training"
 
 ***Listing tasks***
 
@@ -56,7 +59,7 @@ tasks.py update --name "Nauka" --deadline 2020-06-12,19:00 --description "Egzami
 
 Not every element must be specified, for example: tasks.py update --name "Nauka" --hash -4297185180708895369
 
-**Important**
+**IMPORTANT**
 
 Since the hash chains are quite long, I reccomend listing all of them first, then copying them to the next command.
 
@@ -78,6 +81,12 @@ cd Chapter 3
 To test the code, go to main.py and type in print(how_many_numbers_do_you_have_to_check()) in the same file, where function is located.
 
 Command: main.py
+
+**IMPORTANT**
+
+ possible_numbers = [num for num in range(372^2, 809^2 + 1)...
+ 
+To change the scope of the loop, just change the numbers given in range () from those imposed in the task, to any other numbers. The program is written to work in every range.
 
 
 
