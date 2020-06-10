@@ -39,7 +39,7 @@ Command:  tasks.py add --name NAME --deadline DEADLINE --description DESCRIPTION
 
 **IMPORTANT** 
 
-<div class="text-purple">Pattern for deadline: %Y-%m-%d,%H:%M</div>
+Pattern for deadline: ***%Y-%m-%d,%H:%M***
 
 **Example**
 
