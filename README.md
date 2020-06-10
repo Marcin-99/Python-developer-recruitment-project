@@ -47,10 +47,28 @@ Command:  tasks.py list --all | --today
 
 ***Updating tasks***
 
-Command: 
+Command: tasks.py update --name NAME --deadline DEADLINE --description DESCRIPTION --hash HASH
 
-**Example**
+**Examples**
 
-tasks.py update --name "Nauka" --deadline 2020-06-12,19:00 --description "Egzamin z obwodów"  --hash -4297185180708895369
+tasks.py update --name "Nauka" --deadline 2020-06-12,19:00 --description "Egzamin z obwodów" --hash -4297185180708895369
+
+Not every element must be specified: tasks.py update --name "Nauka" --hash -4297185180708895369
+
+**Important**
+
+Since the hash chains are quite long, I reccomend listing all of them first, then copying them to the next command.
+
+***Removing tasks***
+
+Command: tasks.py remove --hash HASH
+
+**example**
+
+tasks.py remove --hash -4297185180708895369
+
+***Chapter 3***
+
+
 
 
