@@ -12,7 +12,9 @@ wrong_car_1 = Car(3, 2001, 5)
 c.pax_count = 6
 
 To run the code on Windows, type in:
+
 cd/Chapter 1
+
 car.py
 
 ***Chapter 2***
