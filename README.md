@@ -1,6 +1,7 @@
 # Python-developer-recruitment-project
 
 To run the code (Chapter 2) you need to have sqlalchemy installed.
+
 pip install sqlalchemy
 
 ***Chapter 1***
