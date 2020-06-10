@@ -13,7 +13,7 @@ if args.function == 'add':
     parser.add_argument('--deadline', metavar='', required=True, help='Deadline for the task')
     parser.add_argument('--description', metavar='', required=True, help='Description of the task')
     args = parser.parse_args(sub_args)
-    add(args.name, args.deadline, args.description)
+    add(name=args.name, deadline=args.deadline, description=args.description)
 
 elif args.function == 'list':
     group = parser.add_mutually_exclusive_group()
