@@ -1,6 +1,6 @@
 # Python-developer-recruitment-project
 
-#Chapter 1
+***Chapter 1***
 
 To test the class "Car", type in this code in the same file where a class is located:
 
@@ -17,5 +17,5 @@ cd/Chapter 1
 
 car.py
 
-#Chapter 2
+***Chapter 2***
 
