@@ -4,6 +4,9 @@ To run the code (Chapter 2) you need to have sqlalchemy installed.
 
 pip install sqlalchemy
 
+<br>
+<br>
+
 ***Chapter 1***
 
 cd Chapter 1
