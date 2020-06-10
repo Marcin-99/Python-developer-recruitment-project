@@ -1,5 +1,8 @@
 # Python-developer-recruitment-project
 
+To run the code (Chapter 2) you need to have sqlalchemy installed.
+pip install sqlalchemy
+
 ***Chapter 1***
 
 To test the class "Car", type in this code in the same file where a class is located:
@@ -18,4 +21,6 @@ cd/Chapter 1
 car.py
 
 ***Chapter 2***
+
+
 
