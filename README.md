@@ -79,6 +79,12 @@ To test the code, go to main.py and type in print(how_many_numbers_do_you_have_t
 
 Command: main.py
 
+**IMPORTANT**
+
+ possible_numbers = [num for num in range(372**2, 809**2 + 1)...
+ 
+To change the scope of the loop, just change the numbers given in range () from those imposed in the task, to any other numbers. The program is written to work in every range.
+
 
 
 
