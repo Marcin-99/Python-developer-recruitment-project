@@ -39,11 +39,11 @@ Command:  tasks.py add --name NAME --deadline DEADLINE --description DESCRIPTION
 
 **IMPORTANT** 
 
-Pattern for deadline: ***%Y-%m-%d,%H:%M***
+!!!!!! Pattern for deadline: ***%Y-%m-%d,%H:%M*** !!!!!!
 
 **Example**
 
-tasks.py add --name trening --deadline 2020-06-10,18:30 --description "Push training"
+tasks.py add --name trening --deadline ***2020-06-10,18:30*** --description "Push training"
 
 ***Listing tasks***
 
