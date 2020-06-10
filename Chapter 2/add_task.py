@@ -14,4 +14,5 @@ def add(name, deadline, description):
 
     session.add(task)
     session.commit()
+    print("Task added successfully.")
     session.close()
