@@ -59,7 +59,7 @@ tasks.py update --name "Nauka" --deadline 2020-06-12,19:00 --description "Egzami
 
 Not every element must be specified, for example: tasks.py update --name "Nauka" --hash -4297185180708895369
 
-**Important**
+**IMPORTANT**
 
 Since the hash chains are quite long, I reccomend listing all of them first, then copying them to the next command.
 
