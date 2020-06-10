@@ -24,6 +24,7 @@ cd Chapter 1
 car.py
 
 <br>
+<br>
 
 ***Chapter 2***
 
@@ -68,6 +69,9 @@ Command: tasks.py remove --hash HASH
 **example**
 
 tasks.py remove --hash -4297185180708895369
+
+<br>
+<br>
 
 ***Chapter 3***
 
