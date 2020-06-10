@@ -9,7 +9,8 @@ def add(name, deadline, description):
     task = Task(name=name,
                 deadline=deadline_time_object,
                 description=description,
-                hash = hash(str(name) + str(deadline) + str(description)))
+                hash=hash(str(name) + str(deadline) + str(description))
+                )
 
     session.add(task)
     session.commit()
