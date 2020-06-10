@@ -10,4 +10,3 @@ def remove(hash_value):
     print("Task deleted successfully.")
 
     session.close()
-

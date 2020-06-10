@@ -15,4 +15,3 @@ def add(name, deadline, description):
     session.add(task)
     session.commit()
     session.close()
-

@@ -34,8 +34,3 @@ elif args.function == 'remove':
     parser.add_argument('--hash', metavar='', required=True, help='Hash value of the task')
     args = parser.parse_args(sub_args)
     remove(args.hash)
-
-
-
-
-
