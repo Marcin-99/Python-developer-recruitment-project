@@ -6,7 +6,7 @@ class Car:
         if pax_count < 1:
             raise IllegalCarError(f"pax_count should be greater or equal to 1, {pax_count} was given.")
         if pax_count > 5:
-            raise IllegalCarError(f"pax_count should be smaller or equal to 1, {pax_count} was given.")
+            raise IllegalCarError(f"pax_count should be smaller or equal to 5, {pax_count} was given.")
         if car_mass > 2000:
             raise IllegalCarError(f"car_mass should be smaller or equal to 2000, {car_mass} was given.")
         self._pax_count = pax_count
