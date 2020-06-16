@@ -32,15 +32,9 @@ class Car:
 
     @pax_count.setter
     def pax_count(self, new_value):
-        if new_value < 1:
-            raise IllegalCarError(f"pax_count should be greater or equal to 1, {new_value} was given.")
-        if new_value > 5:
-            raise IllegalCarError(f"pax_count should be smaller or equal to 1, {new_value} was given.")
         self._pax_count = new_value
 
     @car_mass.setter
     def car_mass(self, new_value):
-        if new_value > 2000:
-            raise IllegalCarError(f"car_mass should be smaller or equal to 2000, {new_value} was given.")
         self._car_mass = new_value
         self._total_mass = self.car_mass + self.pax_count * 70
